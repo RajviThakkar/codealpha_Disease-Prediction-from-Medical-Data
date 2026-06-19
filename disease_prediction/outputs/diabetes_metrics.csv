@@ -1,0 +1,5 @@
+,Accuracy,Precision,Recall,F1 Score,ROC-AUC,CV Accuracy (mean),CV Accuracy (std)
+Random Forest,0.7403,0.6522,0.5556,0.6,0.8161,0.772,0.0267
+Logistic Regression,0.7078,0.6,0.5,0.5455,0.813,0.7866,0.0193
+XGBoost,0.7532,0.6667,0.5926,0.6275,0.8094,0.7426,0.0307
+SVM (RBF kernel),0.7403,0.6522,0.5556,0.6,0.7964,0.7785,0.0079

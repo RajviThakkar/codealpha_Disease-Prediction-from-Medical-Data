@@ -1,0 +1,137 @@
+[
+  {
+    "dataset": "Heart Disease",
+    "n_samples": 297,
+    "n_features": 13,
+    "best_model": "SVM (RBF kernel)",
+    "best_roc_auc": 0.9542410714285714,
+    "metrics": {
+      "SVM (RBF kernel)": {
+        "Accuracy": 0.85,
+        "Precision": 0.88,
+        "Recall": 0.7857,
+        "F1 Score": 0.8302,
+        "ROC-AUC": 0.9542,
+        "CV Accuracy (mean)": 0.7932,
+        "CV Accuracy (std)": 0.0526
+      },
+      "Logistic Regression": {
+        "Accuracy": 0.8333,
+        "Precision": 0.8462,
+        "Recall": 0.7857,
+        "F1 Score": 0.8148,
+        "ROC-AUC": 0.9498,
+        "CV Accuracy (mean)": 0.8269,
+        "CV Accuracy (std)": 0.0592
+      },
+      "Random Forest": {
+        "Accuracy": 0.8667,
+        "Precision": 0.8846,
+        "Recall": 0.8214,
+        "F1 Score": 0.8519,
+        "ROC-AUC": 0.9464,
+        "CV Accuracy (mean)": 0.7933,
+        "CV Accuracy (std)": 0.069
+      },
+      "XGBoost": {
+        "Accuracy": 0.8667,
+        "Precision": 0.8846,
+        "Recall": 0.8214,
+        "F1 Score": 0.8519,
+        "ROC-AUC": 0.8906,
+        "CV Accuracy (mean)": 0.7803,
+        "CV Accuracy (std)": 0.0688
+      }
+    }
+  },
+  {
+    "dataset": "Diabetes",
+    "n_samples": 768,
+    "n_features": 8,
+    "best_model": "Random Forest",
+    "best_roc_auc": 0.8161111111111112,
+    "metrics": {
+      "Random Forest": {
+        "Accuracy": 0.7403,
+        "Precision": 0.6522,
+        "Recall": 0.5556,
+        "F1 Score": 0.6,
+        "ROC-AUC": 0.8161,
+        "CV Accuracy (mean)": 0.772,
+        "CV Accuracy (std)": 0.0267
+      },
+      "Logistic Regression": {
+        "Accuracy": 0.7078,
+        "Precision": 0.6,
+        "Recall": 0.5,
+        "F1 Score": 0.5455,
+        "ROC-AUC": 0.813,
+        "CV Accuracy (mean)": 0.7866,
+        "CV Accuracy (std)": 0.0193
+      },
+      "XGBoost": {
+        "Accuracy": 0.7532,
+        "Precision": 0.6667,
+        "Recall": 0.5926,
+        "F1 Score": 0.6275,
+        "ROC-AUC": 0.8094,
+        "CV Accuracy (mean)": 0.7426,
+        "CV Accuracy (std)": 0.0307
+      },
+      "SVM (RBF kernel)": {
+        "Accuracy": 0.7403,
+        "Precision": 0.6522,
+        "Recall": 0.5556,
+        "F1 Score": 0.6,
+        "ROC-AUC": 0.7964,
+        "CV Accuracy (mean)": 0.7785,
+        "CV Accuracy (std)": 0.0079
+      }
+    }
+  },
+  {
+    "dataset": "Breast Cancer",
+    "n_samples": 569,
+    "n_features": 30,
+    "best_model": "Logistic Regression",
+    "best_roc_auc": 0.9953703703703703,
+    "metrics": {
+      "Logistic Regression": {
+        "Accuracy": 0.9825,
+        "Precision": 0.9861,
+        "Recall": 0.9861,
+        "F1 Score": 0.9861,
+        "ROC-AUC": 0.9954,
+        "CV Accuracy (mean)": 0.978,
+        "CV Accuracy (std)": 0.0098
+      },
+      "SVM (RBF kernel)": {
+        "Accuracy": 0.9825,
+        "Precision": 0.9861,
+        "Recall": 0.9861,
+        "F1 Score": 0.9861,
+        "ROC-AUC": 0.995,
+        "CV Accuracy (mean)": 0.967,
+        "CV Accuracy (std)": 0.0155
+      },
+      "XGBoost": {
+        "Accuracy": 0.9561,
+        "Precision": 0.9467,
+        "Recall": 0.9861,
+        "F1 Score": 0.966,
+        "ROC-AUC": 0.9934,
+        "CV Accuracy (mean)": 0.9692,
+        "CV Accuracy (std)": 0.0108
+      },
+      "Random Forest": {
+        "Accuracy": 0.9561,
+        "Precision": 0.9589,
+        "Recall": 0.9722,
+        "F1 Score": 0.9655,
+        "ROC-AUC": 0.9932,
+        "CV Accuracy (mean)": 0.9626,
+        "CV Accuracy (std)": 0.0179
+      }
+    }
+  }
+]
